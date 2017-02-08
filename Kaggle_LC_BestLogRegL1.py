@@ -89,7 +89,7 @@ print("   classification accuracy: "),
 print(class_err)     # 77.4259
 
 
-y_test2 = np.sign(clf_Lasso.predict(X_T))
+y_test2 = np.sign(clf_LogRegL1.predict(X_T))
 
 identity = elctn_T[1:,0] # data_test is data set. this is the first column
 print(identity)
